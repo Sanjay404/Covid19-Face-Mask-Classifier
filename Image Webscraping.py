@@ -8,6 +8,7 @@ from selenium.webdriver.common.keys import Keys
 import requests
 import os
 driver= webdriver.Chrome()
+URL = "https://www.shutterstock.com/"
 
 image_name = input('Enter the image subject you want to download: ')
 image_count= int(input('Number of images you want to download: '))

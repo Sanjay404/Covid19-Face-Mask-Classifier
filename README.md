@@ -3,6 +3,7 @@
   -  A LeNet Computer-vision model that can classify humans based on whether or not they are wearing a face mask. 
 
   -  Optimized from [Santa/Not-Santa model](https://www.pyimagesearch.com/2017/12/11/image-classification-with-keras-and-deep-learning/)
+  - The dataset I used can be downloaded [here](https://drive.google.com/drive/folders/1zM1kcA2yymbviMsLTWk2njXKrFfh8YzI?usp=sharing)
 
   
 

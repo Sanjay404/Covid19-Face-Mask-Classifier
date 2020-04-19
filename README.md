@@ -5,7 +5,7 @@
 Uses a moderately sized dateset of  2323 images with masked and nonmasked individuals to train the model. The images was then split into training and validation data: 75% of the data was used for training and the remaining 25% was used for testing.
 
 ### Data Modeling
-My input data consisted of 2323 RGB images with masked and nonmasked humans. Given a directory containing all the images, I iteratare through, append a list representing the data with an array representation of the image, and then append another list called labels with a 1 if the path contains "mask" and 0 otherwise. The list containing data variable is then normalized and both label and data lists are re-assigned as numpy arrays. Finally the data is split up and divided into training and testing. Finally, the code uses an Keras' ImageDataGenerator to perfrom some transformations on the data, such as zooming or rotating the image,  to make it more impactful when training.
+My input data consisted of 2323 RGB images with masked and nonmasked humans. Given a directory containing all the images, I iterate through, append a list representing the data with an array representation of the image, and then append another list called labels with a 1 if the path contains "mask" and 0 otherwise. The list containing data variable is then normalized and both label and data lists are re-assigned as numpy arrays. Finally the data is split up and divided into training and testing. Finally, the code uses an Keras' ImageDataGenerator to perfrom some transformations on the data, such as zooming or rotating the image,  to make it more impactful when training.
 
 
 ### Architecture:

@@ -1,5 +1,6 @@
 # Covid19 Face-Mask Classifier. 
-  -  Computer-vision model that can classify humans based on whether or not they are wearing a face mask. 
+  -  A LeNet Computer-vision model that can classify humans based on whether or not they are wearing a face mask. 
+  -  Optimized from Santa/Not-Santa model: https://www.pyimagesearch.com/2017/12/11/image-classification-with-keras-and-deep-learning/ 
 Uses a moderately sized dateset of  2323 images with masked and nonmasked individuals to train the model. The images was then split into training and validation data: 75% of the data was used for training and the remaining 25% was used for testing.
 
 ### Data Modeling

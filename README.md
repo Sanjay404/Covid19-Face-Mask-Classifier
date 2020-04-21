@@ -38,6 +38,6 @@ The LeNet Architecture was originally developed for classifying the MNIST handwr
 
  -  Another CNN for Facial recognition or an extremely effective algorithm for preprocessing the data and forming a 'region of interest' around a person's face(perhaps a modified Haar Cascade Classifier). This would work well with the LeNet, which resizes the image to a measly 28 by 28.
 
- -  Should someone wish to scale this model, I believe it to has the potential to be extremely effective. Once again, the LeNet allows for classification at an extremely small cost (it does not even require a GPU). As a result, if a facial detection algorithm preprocesses the images and focuses on the target's face, the feature(in this case whether or not the target is wearing a mask), would remain significant.
+ -  Should someone wish to scale this model, I believe it to has the potential to be extremely effective. Once again, the LeNet allows for classification at an extremely small cost (it does not even require a GPU). As a result, if a facial detection algorithm preprocesses the images and focuses on the target's face, the feature(in this case whether or not the target is wearing a mask), would remain significant even in a 28 by 28 simplified image.
 
 

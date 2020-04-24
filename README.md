@@ -20,7 +20,7 @@ My input data consisted of 2323 RGB images with masked and unmasked humans. Give
 
 ### Architecture:
 
-I used a LeNet Architecture with a convolutional neural network because it is relatively 'cheap' in terms of computing. LeNet defines a sequential model with two sets of 2-Dimensional Convolutional Layers which include a Convo 2D layer, Relu activation layer, and a MaxPooling2D layer to reduce the complexity/noise of the image (20 and 50 convolutional filters in each respectively set). Subsequently, the model contains a flatten, dense, and relu layer, followed by another Dense and a softmax output layer.  
+I used a LeNet Architecture with a convolutional neural network because it is relatively 'cheap' in terms of computing. LeNet defines a sequential model with two sets of 2-Dimensional Convolutional Layers which include a Convo 2D layer, Relu activation layer, and a MaxPooling2D layer to reduce the complexity/noise of the image (20 and 50 convolutional filters in each respectively set). Subsequently, the model contains a flatten, dense, and relu layer, followed by another Dense and a softmax output layer. The softmax function outputs a probability distribution representative of the model's prediction.
 
 Finally, because this specific classification has only two possible outcomes I used 'binary cross entropy' as my loss function when compiling the LeNet model, along with the Adam optimizer and a constant learning rate. I then passed in my training and validation data which has been transformed as described in the above section.
 
